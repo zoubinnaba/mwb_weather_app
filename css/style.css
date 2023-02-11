@@ -92,6 +92,11 @@
     max-width: 450px;
     min-height: 40px;
   }
+
+  .ajax-section {
+    color: var(--text_light)
+  }
+
   @media screen and (max-width: 700px) {
     .top-banner form {
       flex-direction: column;
@@ -112,3 +117,5 @@
       margin-top: 10px;
     }
   }
+
+ 
