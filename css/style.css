@@ -94,7 +94,15 @@
   }
 
   .ajax-section {
-    color: var(--text_light)
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    list-style: none;
+    line-height: 2rem;
+    padding: 50px;
+    margin: 20px auto;
   }
 
   @media screen and (max-width: 700px) {

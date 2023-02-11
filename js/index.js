@@ -20,6 +20,8 @@ submitEl.addEventListener("click", function(event) {
         return;
     }
 
+    weatherInfoEl.style.display = "block"
+
     const API_URL = `https://api.openweathermap.org/data/2.5/weather?q=${CITY}&appid=${API_KEY}&units=${UNITS}`;
 
     fetch(API_URL)
