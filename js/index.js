@@ -40,9 +40,13 @@ submitEl.addEventListener("click", function(event) {
         msgEl.innerHTML = '';
         // Update the weather information section with the data
             weatherInfoEl.innerHTML = `
-                <li>Temperature: ${data.main.temp} &#8451;</li>
-                <li>Humidity: ${data.main.humidity}%</li>
-                <li>Wind Speed: ${data.wind.speed} m/s</li>
+                <li>Temperature: ${data.main.temp} <span class="material-symbols-outlined">thermometer</span></li>
+                <li>Humidity: ${data.main.humidity}<span class="material-symbols-outlined">
+                humidity_percentage
+                </span></li>
+                <li>Wind Speed: ${data.wind.speed}<span class="material-symbols-outlined">
+                avg_pace
+                </span></li>
                 <li>Description: ${data.weather[0].description}</li>
             `
       })
