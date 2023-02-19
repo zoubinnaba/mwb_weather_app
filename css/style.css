@@ -88,6 +88,11 @@
     transition: background 0.3s ease-in-out;
   }
 
+  .buttons {
+    display: flex;
+    flex-direction: row;
+  }
+
   button {
     margin-top: 2rem;
   }
